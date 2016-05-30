@@ -10,7 +10,7 @@ object MyProjectWebTestBuild extends Build {
   val Organization = "com.orange"
   val Name = "Test Web Project"
   val Version = "0.1.0-SNAPSHOT"
-  val TestDepVersion = "0.1-SNAPSHOT"
+  val TestDepVersion = "0.2-SNAPSHOT"
   val ScalaVersion = "2.11.8"
   val ScalatraVersion = "2.4.1"
 
