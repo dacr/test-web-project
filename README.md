@@ -1,9 +1,18 @@
-# My Project Web Test #
+# test-web-project
 
-## Build & Run ##
+a very simple web project that depends on test-dep. It is scalatra based and you can generate a war application.
 
-```sh
-$ cd My_Project_Web_Test
+## Basic usage
+
+```
+sbt test
+sbt package
+```
+
+## Run using sbt managed jetty application server
+
+```
+$ cd test-web-project
 $ ./sbt
 > jetty:start
 > browse
