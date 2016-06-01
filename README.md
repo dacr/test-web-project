@@ -1,6 +1,6 @@
 # test-web-project
 
-a very simple web project that depends on test-dep. It is scalatra based and you can generate a war application.
+a very simple web project that depends on test-dep and to be build with SBT. It is scalatra based and you can generate a war application.
 
 ## Basic usage
 
