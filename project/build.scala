@@ -2,7 +2,7 @@ import sbt._
 import Keys._
 import org.scalatra.sbt._
 import org.scalatra.sbt.PluginKeys._
-import com.earldouglas.xwp.JettyPlugin
+//import com.earldouglas.xwp.JettyPlugin
 import com.mojolly.scalate.ScalatePlugin._
 import ScalateKeys._
 
@@ -46,5 +46,5 @@ object MyProjectWebTestBuild extends Build {
         )
       }
     )
-  ).enablePlugins(JettyPlugin)
+  ) //.enablePlugins(JettyPlugin)
 }
