@@ -7,7 +7,7 @@ import com.mojolly.scalate.ScalatePlugin._
 import ScalateKeys._
 
 object MyProjectWebTestBuild extends Build {
-  val Organization = "com.orange"
+  val Organization = "dummy.test"
   val Name = "Test Web Project"
   val Version = "0.1.0-SNAPSHOT"
   val TestDepVersion = "0.2-SNAPSHOT"
@@ -25,7 +25,7 @@ object MyProjectWebTestBuild extends Build {
       resolvers += Classpaths.typesafeReleases,
       resolvers += "Scalaz Bintray Repo" at "http://dl.bintray.com/scalaz/releases",
       libraryDependencies ++= Seq(
-        "testdep" %% "test-dep" % TestDepVersion,
+        "dummy.test" %% "test-dep" % TestDepVersion,
         "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
         "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test",
